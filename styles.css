@@ -3,3 +3,37 @@
   padding:0px;
   margin:0px;
 }
+
+.nav{
+  max-width:1600px;
+  height:92px;
+  display: flex;
+  align-items: center;
+  background-color:#FFFFFF;
+}
+.nav-logo{
+  width: 139px;
+  height: 60px;
+  margin-left: 120px;
+  margin-top: 16px;
+}
+.nav .nav-options{
+  margin-left: 367px;
+  margin-top: 24px;
+  margin-right: 345px;
+}
+.nav .nav-options a{
+  color:#000000;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  gap:32px;
+}
+.nav .btn{
+  height: 44px;
+  width: 164px;
+  background-color: #30B868;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+}
